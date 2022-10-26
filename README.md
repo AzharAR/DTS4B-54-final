@@ -9,7 +9,7 @@ you can search your movie and see the trailer
 thx
 
 
-<img src="https://github.com/AzharAR/DTS4B-54-final/TrailerApp.gif" />
+<img src="https://github.com/AzharAR/DTS4B-54-final/blob/main/TrailerApp.gif" />
 
 
 
