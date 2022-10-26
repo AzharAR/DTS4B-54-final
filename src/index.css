@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+   font-family: "Inter", "system-ui";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-active {
+   text-shadow: 2px 1px 1px #da0000;
+}
+
+.text-shadow-desc {
+   text-shadow: 1px 1px 4px #000000;
+}
+
+.text-shadow-title {
+   text-shadow: 3px 3px 3px #da0000;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+   color: #858585 !important;
+   transform: scale(0.6);
+   height: 100% !important;
+   top: 1rem !important;
+   padding: 20px 36px;
+}
+
+.swiper-button-next {
+   right: 0 !important;
+}
+
+.swiper-button-prev {
+   left: 0 !important;
+}
+
+:root {
+   --swiper-pagination-color: #bb0000;
+   --swiper-pagination-bullet-size: 20px;
+   --swiper-pagination-bullet-width: 14px;
+   --swiper-pagination-bullet-height: 14px;
+   --swiper-pagination-bullet-inactive-color: #da0000;
+   --swiper-pagination-bullet-inactive-opacity: 0.6;
+   --swiper-pagination-bullet-horizontal-gap: 4px;
+}
+
+.swiper-pagination {
+   margin-bottom: 0.5rem !important;
+}
+
+.swiper-pagination-bullet-active {
+   box-sizing: border-box;
+   border: 2px solid #dfdfdf !important;
+}
+
+.movie-card:hover div > img.movie {
+   transform: translateY(-4px) translateX(4px);
+   transition: 0.5s;
+}
+
+.movie-card:hover div > img.movie-top {
+   transform: translateY(-6px);
+   transition: 0.5s;
+}
+
+@layer base {
+   body {
+      @apply bg-zinc-900 text-zinc-200;
+   }
 }
