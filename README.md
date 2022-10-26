@@ -9,7 +9,7 @@ you can search your movie and see the trailer
 thx
 
 ## Trailer
-[](https://github.com/AzharAR/DTS4B-54-final/TrailerApp.gif)
+![](https://github.com/AzharAR/DTS4B-54-final/TrailerApp.gif)
 
 
 # DTS REA4 Final Project
